@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+   scroll-behavior: smooth;
+  }
+body{
+    background-color: #023535;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgb(71, 133, 114); */
+    z-index: 999;
+    /* transition: 2s; */
+}
+.country-name{
+top: 23%;
+padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.name{
+width: 229px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    outline-color: #008F8C;
+}
+.butt{
+    margin-left: 5px;
+    width: 120px;
+height: 50px;
+border-radius: 50px;
+border: none;
+outline: none;
+cursor: pointer;
+background-color: #008F8C;
+color: #fff;
+}
+.butt:hover{
+    color: #222;
+background-color: #0FC2C0;
+}
+
+.country{
+    position: absolute;
+    background-color: #015958;
+    height: 375px;
+    width: 450px;
+    top: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 2s;
+    border-radius: 40px;
+}
+.country:hover{
+    -webkit-filter: drop-shadow(15px 15px 10px #0FC2C0);
+    filter: drop-shadow(10px 10px 10px 5px #0FC2C0);
+
+}
+.info{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 6px;
+    animation:animate 1.5s linear infinite ;
+}
+@keyframes animate {
+    50%{
+        top: -3px
+    }
+}
+
+.flag{
+    width: 50%;
+    border-radius: 50%;
+    height: 50%;
+  border:.5px solid ;
+}
+.nam{
+    position: absolute;
+    top: 135px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    margin-top: -38px;
+    /* display: flex; */
+    font-weight: 800;
+    align-items: center;
+    color: #13E1DF;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 0px #494738;
+
+}
+.nam span{
+    font-family:'Poppins', sans-serif;
+    left: 180px;
+    position: absolute;
+    display: flex;
+    top: 5px;
+}
+.pop{
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    top:150px;
+    margin-top:40px;
+}
+.pop span{
+    font-family: 'Poppins', sans-serif;
+    left: 180px;
+    position: relative;
+    display: flex;
+    top: -40px;
+      color: #E6AC0E;
+    
+}
+.cap{
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    top:150px;
+    /* margin-top: 20px; */
+}
+.cap span{
+    font-family: 'Poppins', sans-serif;
+    left: 180px;
+    position: relative;
+    display: flex;
+    top: -40px;
+    color: #E6AC0E;
+}
+.lan{
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    top:150px;
+    margin-top:80px;
+}
+.lan span{
+    font-family: 'Poppins', sans-serif;
+    left: 180px;
+    position:relative;
+    display: flex;
+    top: -40px;
+      color: #E6AC0E;
+}
+.main{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg{
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    top:150px;
+    margin-top:120px;
+}
+.reg span{
+    font-family: 'Poppins', sans-serif;
+    left: 180px;
+    position:relative;
+    display: flex;
+    top: -40px;
+      color: #E6AC0E;
+  }
+
+.money{
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    top:150px;
+    margin-top:160px;
+}
+.money span{
+    font-family: 'Poppins', sans-serif;
+    left: 180px;
+    position:relative;
+    display: flex;
+    top: -40px;
+      color: #E6AC0E;
+  }
+  h1{
+    color: #C6FEFE;
+  }
